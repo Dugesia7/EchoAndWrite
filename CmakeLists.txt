@@ -1,0 +1,6 @@
+project(eaw CXX)
+cmake_minimum_required(VERSION 3.22)
+add_executable(eaw main.cpp)
+install(TARGETS eaw
+	DESTINATION $ENV{userprofile}/Documents/bin
+	)
